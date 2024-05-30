@@ -1,0 +1,73 @@
+THE MAZE PROJECT - MVP
+
+(A 3D Game Developed Using SDL2)
+
+Minimum Viable Product (MVP) for the Maze Game with SDL2:
+Overview:
+
+Maze Structure: Construct a 2D array to represent the maze layout and utilize the SDL2 graphics library to draw walls. These walls should be depicted using rectangles or lines.
+
+Establish a 2D array to hold the maze configuration.
+Leverage SDL2 to render walls by drawing rectangles or lines.
+Player Control:
+
+Orientation and Movement: Enable player control using the arrow keys for movement and rotation within the maze. Employ SDL_Event for handling user input.
+
+Create a function to manage user inputs via SDL_Event.
+Adjust the player's position and direction based on the received input.
+Basic Movement: Implement core movement mechanics allowing the player to move forward, backward, left, and right.
+
+Develop a function to update the player's position in accordance with their orientation and input.
+Collision Detection:
+
+Avoiding Walls: Integrate collision detection to prevent the player from moving through walls. If a collision is detected, halt the player's movement.
+
+Create a function to detect collisions between the player and walls.
+Cease player movement upon collision detection.
+Maze Data Handling:
+
+Data Parsing: Implement a parser to read maze data from a text file and store it in the 2D array.
+
+Write a function to read maze data from a file.
+Store the parsed data in the 2D array.
+Rendering the Maze:
+
+Visual Representation: Utilize the maze data to render the maze on screen. Differentiate walls and floor/ceiling using distinct colors.
+
+Use the stored maze data to draw the maze.
+Apply different colors to visually distinguish walls from the floor and ceiling.
+Adding Textures:
+
+Enhanced Graphics: Incorporate basic textures for the walls using SDL2’s texture rendering capabilities.
+
+Develop a function to load wall textures.
+Utilize SDL2's texture rendering functions to apply textures to walls.
+These features form the foundation for a basic maze game using SDL2.
+
+Data Modelling
+USER STORY
+
+Players seek an engaging maze game created with SDL2 to enjoy solving puzzles and improving their speed and precision.
+
+Game Start:
+
+Players expect a main menu at game start, offering options to begin a new game, load a saved game, or exit. For a new game, they want to select the maze difficulty, including its size and obstacle count.
+Gameplay:
+
+Upon starting, players want to see a maze with a controllable character using arrow keys, moving smoothly and responsively. They also desire a countdown timer for completion and a score reflecting their maze progress.
+
+As they navigate, they wish to collect coins or rewards to boost their score, and face obstacles that add challenges by slowing them down or complicating their path.
+
+Game Completion:
+
+Upon reaching the maze end, players want a congratulatory message displaying their final score and completion time. They also want the option to save their progress for future play.
+Audio and Visuals:
+
+Throughout the game, players expect sound effects for actions like collecting items or encountering obstacles, alongside music that enhances the game’s excitement and challenge.
+
+Visually, players desire high-quality graphics and animations to keep the game engaging and enjoyable.
+
+
+
+
+
